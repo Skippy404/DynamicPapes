@@ -63,5 +63,5 @@ do
 	fi
 
 	#sleep for 30 min before updating.
-	#sleep 1800
+	sleep 1800
 done

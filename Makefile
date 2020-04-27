@@ -13,4 +13,3 @@ install:
 
 uninstall:
 	rm ~/bin/rotatingwp.sh
-	rm -rf $(DIR)
