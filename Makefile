@@ -10,3 +10,7 @@ install:
 	$(shell echo "PWD=$(PWD) #This was added by the makefile" > ~/bin/rotatingwp.sh)
 	$(shell cat $(DIR)/scripts/rotatingwp.sh >> ~/bin/rotatingwp.sh)
 	chmod +x ~/bin/rotatingwp.sh
+
+uninstall:
+	rm ~/bin/rotatingwp.sh
+	rm -rf $(DIR)
