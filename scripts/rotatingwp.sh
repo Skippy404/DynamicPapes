@@ -1,12 +1,7 @@
 #V1.0 of script
+#Please not, this script WILL break if it is just yoinked, pwd is setup when installed,
+#that is, when you run `make` a complete script is installed in ~/bin
 #TODO pwd must be changed to a const that is set through a makefile when installed
-PWD=$(pwd)
-if [[ ! $1 = 0 ]]; then
-	echo "Usage rotatingwp <nr> &"
-	echo "0: firefox"
-	echo -e "\nplease note, the & is necassory to fork the process to background"
-	#exit 1
-fi
 
 # Get directory of photos
 case $1 in
@@ -14,8 +9,10 @@ case $1 in
 		pd="$PWD/images/firewatch"
 		;;
 	*)
-		pd="$PWD/images"
-		#exit 1
+		echo "Usage rotatingwp <nr> &"
+		echo "0: firefox"
+		echo -e "\nplease note, the & is necassory to fork the process to background"
+		exit 1
 esac
 
 while [ 1 = 1 ]
