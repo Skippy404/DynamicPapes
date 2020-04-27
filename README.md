@@ -3,6 +3,8 @@ My dynamic wallpapers, using feh, with the aim of being simple and easy to use.
 It must be said that the idea itself came from a post I saw on reddit, and I obtained
 the wallapers from [here](https://github.com/adi1090x/dynamic-wallpaper)
 
+---
+
 ## Dependencies
 Now with before we get into the usage, first we must ensure the dependencies are
 installed, of which there is only one, namely `feh`
@@ -19,11 +21,15 @@ sudo apt install feh
 sudo dnf install feh
 ````
 
+---
+
 ## Installing
 Simply
 ````
 make
 ````
+
+---
 
 ## Usage
 So firstly, the idea behind this DynamicPape is to follow the unix philosophy of
@@ -39,6 +45,8 @@ With that out of the way, you will find in you ~/bin, the following script `rota
 ./rotatingwp.sh
 ````
 To get a list of modes.
+
+---
 
 ## Example
 Too run the firewatch set
