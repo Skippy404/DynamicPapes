@@ -20,7 +20,6 @@ do
 	index=$(date | cut -d " " -f5 | cut -c 1-2)
 	pic=$(ls -l $pd/$index.* | cut -d " " -f 9)
 	if [ ! $pic = "" ]; then
-		echo "File exists!"
 		feh --bg-scale $pic
 	else
 		echo "FDNE"
