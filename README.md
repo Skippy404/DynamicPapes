@@ -28,6 +28,7 @@ Simply
 ````
 make
 ````
+This installs the script in ~/bin
 
 ---
 
@@ -40,7 +41,7 @@ so idealy you will run the script on the init of your specific Desktop Environme
 If you dont know how to do this/ where to do this, a simple solution is also to
 set it up so the script runs on boot (I will not go into this detail though)
 
-With that out of the way, you will find in you ~/bin, the following script `rotatingwp.sh` to obtain a list of modes, you can
+With that out of the way, you will find in your ~/bin, the following script `rotatingwp.sh` to obtain a list of modes, you can
 ````
 ./rotatingwp.sh
 ````
